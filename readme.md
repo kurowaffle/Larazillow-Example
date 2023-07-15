@@ -10,12 +10,13 @@ Create database and configure database config in .env. Then execute this:
 > composer install
 > npm install
 > php artisan migrate:refresh --seed
+> php artisan key:generate
+> php artisan config:cache
 ```
 ## Developing
 
 ### Prerequisites
-1. PHP 8.1
-2. MySQL
+1. Minimum requirement for Laravel 9
 3. NPM
 
 ### Running Dev
